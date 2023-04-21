@@ -1,0 +1,1886 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ROJAVA</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/image.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="fonts/fontawesome/fontawesome.css">
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center">
+
+                <!-- logo -->
+                <div class="col-xs-12  col-md-4">
+                    <div class="logo">
+                        <h1> <a href="#"> <img src="images/logo.png"
+                                    style="width: 200px; margin-bottom: 10px; max-width: 200px !important;"> </a> </h1>
+                    </div>
+                </div>
+
+                <!-- search -->
+                <div class="col-xs-12 col-sm-6 col-md-1">
+                </div>
+
+                <!-- login/signup -->
+                <!-- <div class="col-xs-12 col-sm-6 col-md-7">
+                    <div class="right-tools">
+                        <div class="login-reg">
+                            <a class="login" href="#language" data-toggle="modal" data-target="#language-popup"> <img
+                                    src="images/flag.png"> Germany
+                                <a class="login" data-toggle="modal" data-target="#login-popup" href="#login"> Login
+                                </a>
+                                <a class="sign" href="#sign" data-toggle="modal" data-target="#register-popup"> Sign Up
+                                </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- popups -->
+    <!-- login -->
+    <div id="login-popup" class="login-pop modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="title-popup">
+                    <img src="images/logo.png">
+                    <h3>Login</h3>
+                </div>
+                <form>
+                    <input type="text" class="form-control" placeholder="Username or E-mail">
+                    <div class="pass">
+                        <input type="password" class="form-control" placeholder="Password"> <i class="fa fa-eye"
+                            aria-hidden="true"></i>
+                    </div>
+                    <div class="remember">
+                        <input type="checkbox" name="remember" value="1"> <span> Remember me </span>
+                        <a href="#" data-toggle="modal" data-target="#forgot-popup"> Forget Your Password? </a>
+                    </div>
+                    <button class="submit"> Login </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forgot password -->
+    <div id="forgot-popup" class="login-pop modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="title-popup">
+                    <img src="images/logo.png">
+                    <h3>Forgot your password ?</h3>
+                </div>
+                <form>
+                    <input type="text" class="form-control" placeholder="Username or E-mail">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                    <button class="submit"> Send </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- register -->
+    <div id="register-popup" class="login-pop modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="title-popup">
+                    <img src="images/logo.png">
+                    <h3>Create a profile</h3>
+                </div>
+                <div class="row">
+                    <section>
+                        <div class="wizard">
+                            <form role="form">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" role="tabpanel" id="step1">
+
+                                        <div class="tab-pane" role="tabpanel" id="complete">
+                                            <div class="row">
+                                                <div class="gender">
+                                                    <ul class="unstyled centered">
+                                                        <li class="col-xs-6 col-sm-2">
+                                                            <input type="radio" id="r1" name="gender" value="male">
+                                                            <label for="r1"><span></span>Male</label>
+                                                        </li>
+                                                        <li class="col-xs-6 col-sm-10">
+                                                            <input type="radio" id="r2" name="gender" value="Female">
+                                                            <label for="r2"><span></span>Female</label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <input type="text" class="form-control" placeholder="First Name">
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <input type="text" class="form-control" placeholder="Last Name">
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <input type="number" class="form-control"
+                                                        placeholder="Confirm Phone number">
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <input type="number" class="form-control"
+                                                        placeholder="Confirm Phone number">
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <input type="text" class="form-control" placeholder="E-mail">
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Confirm E-Mail">
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <div class="pass form-1">
+                                                        <input type="password" class="input-1 form-control"
+                                                            placeholder="Password">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                        <div class="progress-bar_wrap">
+                                                            <div class="progress-bar_item progress-bar_item-1"></div>
+                                                            <div class="progress-bar_item progress-bar_item-2"></div>
+                                                            <div class="progress-bar_item progress-bar_item-3"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <div class="pass form-2">
+                                                        <input type="password" class="input-2 form-control"
+                                                            placeholder="Confirm Password">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                        <div class="progress-bar_wrap">
+                                                            <div class="progress-bar_item progress-bar_item-1"></div>
+                                                            <div class="progress-bar_item progress-bar_item-2"></div>
+                                                            <div class="progress-bar_item progress-bar_item-3"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accept"><input type="checkbox">
+                                                <span>Accept police and terms </span>
+                                            </div>
+                                            <a class="submit submit-right "> Register </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---- TOP BANNNER ---  -->
+    <div>
+        <img src="./images/main_banner.jpg" alt="" />
+    </div>
+
+    <!-- top news -->
+    <div class="container-fluid">
+        <div class="item item-red">
+            <div class="new-all-item">
+                <div class="container-fluid">
+                    <div class="row latest_news">
+                        <div class="col-md-5">
+                            <div>
+                                <img src="./images/top_left1.jpg" />
+                            </div>
+                            <div>
+                                <img src="./images/top_left2.jpg" />
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="new-item new-item-1 ">
+                                <img src="images/new/new1.jpg">
+                                <div class="info-new">
+
+                                    <h2>Lorem ipsum text for news</h2>
+
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <h6>Latest News</h6>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="right_news">
+                                            <div><img src="images/new/new1.jpg" alt="" /></div>
+                                            <div>
+                                                <h5>You Can Write New Title Here</h5>
+                                                <p>June 14,2018</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right_news">
+                                            <div><img src="images/slider-header/top2.jpg" alt="" /></div>
+                                            <div>
+                                                <h5>You Can Write New Title Here</h5>
+                                                <p>June 14,2018</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right_news">
+                                            <div><img src="images/new/news2.png" alt="" /></div>
+                                            <div>
+                                                <h5>You Can Write New Title Here</h5>
+                                                <p>June 14,2018</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="right_news">
+                                            <div><img src="images/new/news3.png" alt="" /></div>
+                                            <div>
+                                                <h5>You Can Write New Title Here</h5>
+                                                <p>June 14,2018</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div>
+            <img src="./images/clothes.jpg" />
+        </div>
+    </div>
+
+    <!-- new videos -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12 col-md-3">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <!-- new videos -->
+                                <div class="item item-red">
+                                    <div class="new-videos">
+                                        <div class="new-title">
+                                            <h2> Our Videos</h2>
+                                        </div>
+                                        <div class="items-new-videos">
+                                            <div class="row">
+
+                                                <div class="col-xs-12">
+                                                    <div class="video">
+                                                        <div class="image-video">
+                                                            <a href="#"> <img src="images/videos/video1.png"> </a>
+                                                            <span>03:40</span>
+                                                        </div>
+                                                        <div class="text-video">
+                                                            <h3> <a href="#"> Teamwork Skills in The Office </a> </h3>
+                                                            <p class="time"> An hour ago </p>
+                                                            <p class="views"> 900 </p>
+                                                            <div class="dropdown">
+                                                                <button class="dropdown-toggle" type="button"
+                                                                    data-toggle="dropdown">
+                                                                    <img src="images/more.png"> </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Add to watch later</a></li>
+                                                                    <li><a href="#">Don't Care</a></li>
+                                                                    <li><a href="#">Report</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-12">
+                                                    <div class="video">
+                                                        <div class="image-video">
+                                                            <a href="#"> <img src="images/videos/video2.png"> </a>
+                                                            <span>03:40</span>
+                                                        </div>
+                                                        <div class="text-video">
+                                                            <h3> <a href="#"> Brainstorming Session </a> </h3>
+                                                            <p class="time"> An hour ago </p>
+                                                            <p class="views"> 900 </p>
+                                                            <div class="dropdown">
+                                                                <button class="dropdown-toggle" type="button"
+                                                                    data-toggle="dropdown">
+                                                                    <img src="images/more.png"> </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Add to watch later</a></li>
+                                                                    <li><a href="#">Don't Care</a></li>
+                                                                    <li><a href="#">Report</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-12">
+                                                    <div class="video">
+                                                        <div class="image-video">
+                                                            <a href="#"> <img src="images/videos/video3.png"> </a>
+                                                            <span>03:40</span>
+                                                        </div>
+                                                        <div class="text-video">
+                                                            <h3> <a href="#"> Office Atmosphere </a> </h3>
+                                                            <p class="time"> An hour ago </p>
+                                                            <p class="views"> 900 </p>
+                                                            <div class="dropdown">
+                                                                <button class="dropdown-toggle" type="button"
+                                                                    data-toggle="dropdown">
+                                                                    <img src="images/more.png"> </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Add to watch later</a></li>
+                                                                    <li><a href="#">Don't Care</a></li>
+                                                                    <li><a href="#">Report</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-12">
+                                                    <div class="video">
+                                                        <div class="image-video">
+                                                            <a href="#"> <img src="images/videos/video4.png"> </a>
+                                                            <span>03:40</span>
+                                                        </div>
+                                                        <div class="text-video">
+                                                            <h3> <a href="#"> Teamwork Skills in The Office </a> </h3>
+                                                            <p class="time"> An hour ago </p>
+                                                            <p class="views"> 900 </p>
+                                                            <div class="dropdown">
+                                                                <button class="dropdown-toggle" type="button"
+                                                                    data-toggle="dropdown">
+                                                                    <img src="images/more.png"> </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Add to watch later</a></li>
+                                                                    <li><a href="#">Don't Care</a></li>
+                                                                    <li><a href="#">Report</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-12">
+                                                    <div class="video">
+                                                        <div class="image-video">
+                                                            <a href="#"> <img src="images/videos/video5.png"> </a>
+                                                            <span>03:40</span>
+                                                        </div>
+                                                        <div class="text-video">
+                                                            <h3> <a href="#"> Office Atmosphere </a> </h3>
+                                                            <p class="time"> An hour ago </p>
+                                                            <p class="views"> 900 </p>
+                                                            <div class="dropdown">
+                                                                <button class="dropdown-toggle" type="button"
+                                                                    data-toggle="dropdown">
+                                                                    <img src="images/more.png"> </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Add to watch later</a></li>
+                                                                    <li><a href="#">Don't Care</a></li>
+                                                                    <li><a href="#">Report</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xs-12">
+                                                    <div class="video">
+                                                        <div class="image-video">
+                                                            <a href="#"> <img src="images/videos/video6.png"> </a>
+                                                            <span>03:40</span>
+                                                        </div>
+                                                        <div class="text-video">
+                                                            <h3> <a href="#"> Teamwork Skills in The Office </a> </h3>
+                                                            <p class="time"> An hour ago </p>
+                                                            <p class="views"> 900 </p>
+                                                            <div class="dropdown">
+                                                                <button class="dropdown-toggle" type="button"
+                                                                    data-toggle="dropdown">
+                                                                    <img src="images/more.png"> </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Add to watch later</a></li>
+                                                                    <li><a href="#">Don't Care</a></li>
+                                                                    <li><a href="#">Report</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- users -->
+                            <div class="col-xs-12">
+                                <div class="item">
+                                    <div class="user  slide-new">
+                                        <div class="new-title">
+                                            <h2> users</h2>
+                                        </div>
+                                        <div class="items-users">
+                                            <div class="owl-carousel owl-theme" id="usercar">
+                                                <div class="item">
+                                                    <div class="profile-card">
+                                                        <div class="profile-cover">
+                                                            <div class="profile-avatar">
+                                                                <div class="btns-container">
+                                                                </div>
+                                                                <a href="#"><img
+                                                                        src="https://dl.dropboxusercontent.com/s/7pcnqq18skh1myk/avatar.jpg"
+                                                                        alt="Anis M"></a>
+                                                            </div>
+                                                            <div class="profile-details">
+                                                                <h1>Anis M</h1>
+                                                                <h6>@anismashku</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="profile-content">
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <div class="digits">234</div>
+                                                                    Friends
+                                                                </li>
+                                                                <li>
+                                                                    <div class="digits">51</div>
+                                                                    Likes
+                                                                </li>
+                                                            </ul>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="profile-card">
+                                                        <div class="profile-cover">
+                                                            <div class="profile-avatar">
+                                                                <div class="btns-container">
+                                                                </div>
+                                                                <a href="#"><img
+                                                                        src="https://dl.dropboxusercontent.com/s/7pcnqq18skh1myk/avatar.jpg"
+                                                                        alt="Anis M"></a>
+                                                            </div>
+                                                            <div class="profile-details">
+                                                                <h1>Anis M</h1>
+                                                                <h6>@anismashku</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="profile-content">
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <div class="digits">234</div>
+                                                                    Friends
+                                                                </li>
+                                                                <li>
+                                                                    <div class="digits">51</div>
+                                                                    Likes
+                                                                </li>
+                                                            </ul>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="profile-card">
+                                                        <div class="profile-cover">
+                                                            <div class="profile-avatar">
+                                                                <div class="btns-container">
+                                                                </div>
+                                                                <a href="#"><img
+                                                                        src="https://dl.dropboxusercontent.com/s/7pcnqq18skh1myk/avatar.jpg"
+                                                                        alt="Anis M"></a>
+                                                            </div>
+                                                            <div class="profile-details">
+                                                                <h1>Anis M</h1>
+                                                                <h6>@anismashku</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="profile-content">
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <div class="digits">234</div>
+                                                                    Friends
+                                                                </li>
+                                                                <li>
+                                                                    <div class="digits">51</div>
+                                                                    Likes
+                                                                </li>
+                                                            </ul>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="profile-card">
+                                                        <div class="profile-cover">
+                                                            <div class="profile-avatar">
+                                                                <div class="btns-container">
+                                                                </div>
+                                                                <a href="#"><img
+                                                                        src="https://dl.dropboxusercontent.com/s/7pcnqq18skh1myk/avatar.jpg"
+                                                                        alt="Anis M"></a>
+                                                            </div>
+                                                            <div class="profile-details">
+                                                                <h1>Anis M</h1>
+                                                                <h6>@anismashku</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="profile-content">
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <div class="digits">234</div>
+                                                                    Friends
+                                                                </li>
+                                                                <li>
+                                                                    <div class="digits">51</div>
+                                                                    Likes
+                                                                </li>
+                                                            </ul>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <div class="item">
+                                    <div class="user user-1 slide-new">
+                                        <div class="new-title">
+                                            <h2> fanpage </h2>
+                                        </div>
+                                        <div class="items-users">
+                                            <div class="owl-carousel owl-theme" id="histcar">
+                                                <div class="item">
+                                                    <div class="profile-id">
+                                                        <div class="profile-cover overlay">
+                                                        </div>
+                                                        <div class="profile-img">
+                                                            <img src="./images/08 (1).jpg">
+                                                        </div>
+                                                        <div class="profile-info">
+                                                            <div class="profile-name">
+                                                                Scooby Doo
+                                                                <span>"I love to run!"</span>
+                                                            </div>
+                                                            <div class="profile-follow">
+                                                                Follow
+                                                            </div>
+                                                            <div class="profile-follow-wrapper">
+                                                                <div class="profile-followers">
+                                                                    <span class="fol-num">101</span> Followers
+                                                                </div>
+                                                                <div class="profile-following">
+                                                                    <span class="fol-num">258</span> Following
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="profile-id">
+                                                        <div class="profile-cover overlay">
+                                                        </div>
+                                                        <div class="profile-img">
+                                                            <img src="./images/08 (1).jpg">
+                                                        </div>
+                                                        <div class="profile-info">
+                                                            <div class="profile-name">
+                                                                Scooby Doo
+                                                                <span>"I love to run!"</span>
+                                                            </div>
+                                                            <div class="profile-follow">
+                                                                Follow
+                                                            </div>
+                                                            <div class="profile-follow-wrapper">
+                                                                <div class="profile-followers">
+                                                                    <span class="fol-num">101</span> Followers
+                                                                </div>
+                                                                <div class="profile-following">
+                                                                    <span class="fol-num">258</span> Following
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="profile-id">
+                                                        <div class="profile-cover overlay">
+                                                        </div>
+                                                        <div class="profile-img">
+                                                            <img src="./images/08 (1).jpg">
+                                                        </div>
+                                                        <div class="profile-info">
+                                                            <div class="profile-name">
+                                                                Scooby Doo
+                                                                <span>"I love to run!"</span>
+                                                            </div>
+                                                            <div class="profile-follow">
+                                                                Follow
+                                                            </div>
+                                                            <div class="profile-follow-wrapper">
+                                                                <div class="profile-followers">
+                                                                    <span class="fol-num">101</span> Followers
+                                                                </div>
+                                                                <div class="profile-following">
+                                                                    <span class="fol-num">258</span> Following
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="profile-id">
+                                                        <div class="profile-cover overlay">
+                                                        </div>
+                                                        <div class="profile-img">
+                                                            <img src="./images/08 (1).jpg">
+                                                        </div>
+                                                        <div class="profile-info">
+                                                            <div class="profile-name">
+                                                                Scooby Doo
+                                                                <span>"I love to run!"</span>
+                                                            </div>
+                                                            <div class="profile-follow">
+                                                                Follow
+                                                            </div>
+                                                            <div class="profile-follow-wrapper">
+                                                                <div class="profile-followers">
+                                                                    <span class="fol-num">101</span> Followers
+                                                                </div>
+                                                                <div class="profile-following">
+                                                                    <span class="fol-num">258</span> Following
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-md-9">
+                        <div class="row">
+
+                            <div class="col-xs-12">
+                                <div class="new-all-item new-all-item-events slide-new2">
+                                    <div class="new-title">
+                                        <h2>Events</h2>
+                                    </div>
+
+                                    <div class="owl-carousel owl-theme" id="eventsCar">
+                                        <div class="item">
+                                            <div class="new-item new-item-1">
+                                                <img src="images/new/event1.jpg">
+                                                <div class="info-new">
+                                                    <h2>You Can Write Events Title Here</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="new-item new-item-1">
+                                                <img src="images/new/event3.jpg">
+                                                <div class="info-new">
+                                                    <h2>You Can Write Events Title Here</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="new-item new-item-1">
+                                                <img src="images/new/event2.jpg">
+                                                <div class="info-new">
+                                                    <h2>You Can Write Events Title Here</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="col-xs-12 col-md-6">
+                                <div class="new-all-item new-all-item-events slide-new">
+                                    <div class="new-title">
+                                        <h2>music</h2>
+                                    </div>
+                                    <div class="owl-carousel owl-theme" id="musiccar">
+                                        <div class="item">
+                                            <section class="music-player">
+                                                <header class="music-player--banner"><img src="images/new/music1.png">
+                                                </header>
+                                                <main class="music-player--main">
+                                                    <div class="music-player--progress">
+                                                        <progress class="progress--progress-bar" value="43"
+                                                            max="100"></progress>
+                                                        <div class="progress--time">1:37</div>
+                                                        <div class="progress--time progress--time__end">3:52</div>
+                                                    </div>
+                                                    <div class="music-player--controls">
+                                                        <i class="fa fa-pause controls--play-button"></i>
+
+                                                        <div class="song-info">
+                                                            <div class="song-info--title">Song Title</div>
+                                                            <div class="song-info--artist">singer</div>
+                                                        </div>
+                                                    </div>
+                                                </main>
+                                            </section>
+                                        </div>
+                                        <div class="item">
+                                            <section class="music-player">
+                                                <header class="music-player--banner"><img src="images/new/music2.png">
+                                                </header>
+                                                <main class="music-player--main">
+                                                    <div class="music-player--progress">
+                                                        <progress class="progress--progress-bar" value="43"
+                                                            max="100"></progress>
+                                                        <div class="progress--time">1:37</div>
+                                                        <div class="progress--time progress--time__end">3:52</div>
+                                                    </div>
+                                                    <div class="music-player--controls">
+                                                        <i class="fa fa-pause controls--play-button"></i>
+
+                                                        <div class="song-info">
+                                                            <div class="song-info--title">Song Title</div>
+                                                            <div class="song-info--artist">singer</div>
+                                                        </div>
+                                                    </div>
+                                                </main>
+                                            </section>
+                                        </div>
+                                        <div class="item">
+                                            <section class="music-player">
+                                                <header class="music-player--banner"><img src="images/new/music3.png">
+                                                </header>
+                                                <main class="music-player--main">
+                                                    <div class="music-player--progress">
+                                                        <progress class="progress--progress-bar" value="43"
+                                                            max="100"></progress>
+                                                        <div class="progress--time">1:37</div>
+                                                        <div class="progress--time progress--time__end">3:52</div>
+                                                    </div>
+                                                    <div class="music-player--controls">
+                                                        <i class="fa fa-pause controls--play-button"></i>
+
+                                                        <div class="song-info">
+                                                            <div class="song-info--title">Song Title</div>
+                                                            <div class="song-info--artist">singer</div>
+                                                        </div>
+                                                        <div class="controls--actions">
+                                                            <i class="fa fa-retweet actions--repeat"></i>
+                                                        </div>
+                                                    </div>
+                                                </main>
+                                            </section>
+                                        </div>
+                                        <div class="item">
+                                            <section class="music-player">
+                                                <header class="music-player--banner"><img src="images/new/music4.png">
+                                                </header>
+                                                <main class="music-player--main">
+                                                    <div class="music-player--progress">
+                                                        <progress class="progress--progress-bar" value="43"
+                                                            max="100"></progress>
+                                                        <div class="progress--time">1:37</div>
+                                                        <div class="progress--time progress--time__end">3:52</div>
+                                                    </div>
+                                                    <div class="music-player--controls">
+                                                        <i class="fa fa-pause controls--play-button"></i>
+
+                                                        <div class="song-info">
+                                                            <div class="song-info--title">Song Title</div>
+                                                            <div class="song-info--artist">singer</div>
+                                                        </div>
+                                                        <div class="controls--actions">
+                                                            <i class="fa fa-retweet actions--repeat"></i>
+                                                        </div>
+                                                    </div>
+                                                </main>
+                                            </section>
+                                        </div>
+                                        <div class="item">
+                                            <section class="music-player">
+                                                <header class="music-player--banner"><img src="images/new/music1.png">
+                                                </header>
+                                                <main class="music-player--main">
+                                                    <div class="music-player--progress">
+                                                        <progress class="progress--progress-bar" value="43"
+                                                            max="100"></progress>
+                                                        <div class="progress--time">1:37</div>
+                                                        <div class="progress--time progress--time__end">3:52</div>
+                                                    </div>
+                                                    <div class="music-player--controls">
+                                                        <i class="fa fa-pause controls--play-button"></i>
+
+                                                        <div class="song-info">
+                                                            <div class="song-info--title">Song Title</div>
+                                                            <div class="song-info--artist">Singer</div>
+                                                        </div>
+                                                        <div class="controls--actions">
+                                                            <i class="fa fa-retweet actions--repeat"></i>
+                                                        </div>
+                                                    </div>
+                                                </main>
+                                            </section>
+                                        </div>
+                                        <div class="item">
+                                            <section class="music-player">
+                                                <header class="music-player--banner"><img src="images/new/music2.png">
+                                                </header>
+                                                <main class="music-player--main">
+                                                    <div class="music-player--progress">
+                                                        <progress class="progress--progress-bar" value="43"
+                                                            max="100"></progress>
+                                                        <div class="progress--time">1:37</div>
+                                                        <div class="progress--time progress--time__end">3:52</div>
+                                                    </div>
+                                                    <div class="music-player--controls">
+                                                        <i class="fa fa-pause controls--play-button"></i>
+
+                                                        <div class="song-info">
+                                                            <div class="song-info--title">Song Title</div>
+                                                            <div class="song-info--artist">singer</div>
+                                                        </div>
+                                                        <div class="controls--actions">
+                                                            <i class="fa fa-retweet actions--repeat"></i>
+                                                        </div>
+                                                    </div>
+                                                </main>
+                                            </section>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-md-6">
+                                <div class="new-all-item new-all-item-events slide-new">
+                                    <div class="new-title">
+                                        <h2>artist</h2>
+                                    </div>
+                                    <div class="owl-carousel owl-theme" id="artcar">
+                                        <div class="item">
+                                            <div class="artist-new">
+                                                <a href="#"> <img src="./images/01 (2).jpg"> </a>
+                                                <h5> <a href="#"> Madilyn Bailey </a> </h5>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="artist-new">
+                                                <a href="#"> <img src="./images/02 (1).jpg"> </a>
+                                                <h5> <a href="#"> Madilyn Bailey </a> </h5>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="artist-new">
+                                                <a href="#"> <img src="./images/03 (1).jpg"> </a>
+                                                <h5> <a href="#"> Madilyn Bailey </a> </h5>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="artist-new">
+                                                <a href="#"> <img src="./images/04 (1).jpg"> </a>
+                                                <h5> <a href="#"> Madilyn Bailey </a> </h5>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="artist-new">
+                                                <a href="#"> <img src="./images/01 (2).jpg"> </a>
+                                                <h5> <a href="#"> Madilyn Bailey </a> </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <div class="container-fluid">
+                                <div>
+                                    <img src="./images/mobile.jpg" style="width: 100%;"/>
+                                </div>
+                            </div>
+
+                            <div class="container-fluid">
+                                <div>
+                                    <img src="./images/african.jpg" style="width: 100%;"/>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <div class="new-all-item new-all-item-events slide-new">
+                                    <div class="new-title">
+                                        <h2>Blog</h2>
+                                    </div>
+                                    <div class="owl-carousel owl-theme" id="blogcar">
+                                        <div class="item">
+                                            <div class="blog">
+                                                <div class="img-cat">
+                                                    <img src="./images/05 (1).jpg"
+                                                        style="width: 140px !important; height: 180px;">
+                                                    <a href="#">Blog</a>
+                                                </div>
+                                                <div class="text-blog">
+                                                    <h2>Blog Title</h2>
+                                                    <span>June 7,2018</span>
+                                                    <p>Tensions remain high between major world powers, including the
+                                                        United States, China, and Russia. The ongoing conflict in Syria
+                                                        and the crisis in Afghanistan are also major geopolitical
+                                                        issues.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="blog">
+                                                <div class="img-cat">
+                                                    <img src="./images/06 (1).jpg"
+                                                        style="width: 140px !important; height: 180px;">
+                                                    <a href="#">Blog</a>
+                                                </div>
+                                                <div class="text-blog">
+                                                    <h2>Blog Title</h2>
+                                                    <span>June 7,2018</span>
+                                                    <p>Technology continues to advance at a rapid pace, with
+                                                        developments in artificial intelligence, quantum computing, and
+                                                        autonomous vehicles, among other areas. Cybersecurity and data
+                                                        privacy are also major concerns as more and more of our lives
+                                                        are conducted online.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="blog">
+                                                <div class="img-cat">
+                                                    <img src="./images/07 (1).jpg"
+                                                        style="width: 140px !important; height: 180px;">
+                                                    <a href="#">Blog</a>
+                                                </div>
+                                                <div class="text-blog">
+                                                    <h2>Blog Title</h2>
+                                                    <span>June 7,2018</span>
+                                                    <p>Climate change continues to be a major concern, with extreme
+                                                        weather events and rising sea levels posing a threat to
+                                                        communities worldwide. The United Nations Climate Change
+                                                        Conference (COP26) is scheduled to take place in Glasgow,
+                                                        Scotland in November 2021, where world leaders will discuss
+                                                        efforts to combat climate change.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-fluid">
+                                <div>
+                                    <img src="./images/movie.jpg" style="width: 100%;"/>
+                                </div>
+                            </div>
+
+                            <!-- Market -->
+                            <div class="col-xs-12 col-md-6" style="margin-bottom: 20px;">
+                                <div class="new-all-item new-all-item-events slide-new items-bazzar">
+                                    <div class="new-title">
+                                        <h2>Market</h2>
+                                    </div>
+                                    <div class="owl-carousel owl-theme" id="marketcar">
+                                        <div class="item">
+                                            <div class="product-box">
+                                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/furniture.jpg"
+                                                    alt="cookies" class="hero-image" />
+                                                <div class="price">$ <div>95</div>
+                                                </div>
+                                                <div class="information">
+                                                    <div class="name">Amazing Furniture</div>
+                                                    <div class="store">ikea.com</div>
+                                                    <a href="#" class="button">Purchase Product</a>
+                                                </div> <!-- end information -->
+                                            </div> <!-- end product-box -->
+                                        </div>
+                                        <div class="item">
+                                            <div class="product-box">
+                                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/furniture.jpg"
+                                                    alt="cookies" class="hero-image" />
+                                                <div class="price">$ <div>95</div>
+                                                </div>
+                                                <div class="information">
+                                                    <div class="name">Amazing Furniture</div>
+                                                    <div class="store">ikea.com</div>
+                                                    <!-- <div>
+                                                        <h6>$65</h6>
+                                                    </div> -->
+                                                    <a href="#" class="button">Purchase Product</a>
+                                                </div> <!-- end information -->
+                                            </div> <!-- end product-box -->
+                                        </div>
+                                        <div class="item">
+                                            <div class="product-box">
+                                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/furniture.jpg"
+                                                    alt="cookies" class="hero-image" />
+                                                <div class="price">$ <div>95</div>
+                                                </div>
+                                                <div class="information">
+                                                    <div class="name">Amazing Furniture</div>
+                                                    <div class="store">ikea.com</div>
+                                                    <a href="#" class="button">Purchase Product</a>
+                                                </div> <!-- end information -->
+                                            </div> <!-- end product-box -->
+                                        </div>
+                                        <div class="item">
+                                            <div class="product-box">
+                                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/furniture.jpg"
+                                                    alt="cookies" class="hero-image" />
+                                                <div class="price">$ <div>95</div>
+                                                </div>
+                                                <div class="information">
+                                                    <div class="name">Amazing Furniture</div>
+                                                    <div class="store">ikea.com</div>
+                                                    <a href="#" class="button">Purchase Product</a>
+                                                </div> <!-- end information -->
+                                            </div> <!-- end product-box -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Advertisment -->
+                            <div class="col-xs-12 col-md-6" style="margin-bottom: 20px;">
+                                <div class="new-all-item new-all-item-events slide-new advertismentss">
+                                    <div class="new-title">
+                                        <h2>Advertisment</h2>
+                                    </div>
+                                    <div class="owl-carousel owl-theme" id="advercar">
+                                        <div class="item">
+                                            <figure class="snip1268">
+                                                <div class="image">
+                                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample4.jpg"
+                                                        alt="sq-sample4" />
+                                                    <div class="icons">
+                                                        <a href="#"><i class="ion-star"></i></a>
+                                                        <a href="#"> <i class="ion-share"></i></a>
+                                                    </div>
+                                                    <a href="#" class="add-to-cart">Add to Cart</a>
+                                                </div>
+                                                <figcaption>
+                                                    <h2>Denim Shirt</h2>
+                                                    <p>My family is dysfunctional and my parents won't empower me.
+                                                        Consequently I'm not self actualized.</p>
+                                                    <div class="price">$65.00 </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="item">
+
+                                            <figure class="snip1268">
+                                                <div class="image">
+                                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample15.jpg"
+                                                        alt="sq-sample15" />
+                                                    <div class="icons">
+                                                        <a href="#"><i class="ion-star"></i></a>
+                                                        <a href="#"> <i class="ion-share"></i></a>
+                                                    </div>
+                                                    <a href="#" class="add-to-cart">Add to Cart</a>
+                                                </div>
+                                                <figcaption>
+                                                    <h2>Footwear</h2>
+                                                    <p>Miss Wormwood: What state do you live in? Calvin: Denial. Miss
+                                                        Wormwood: I don't suppose I can argue with that!</p>
+                                                    <div class="price">$195.00 </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="item">
+                                            <figure class="snip1268 hover">
+                                                <div class="image">
+                                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg"
+                                                        alt="sq-sample17" />
+                                                    <div class="icons">
+                                                        <a href="#"><i class="ion-star"></i></a>
+                                                        <a href="#"> <i class="ion-share"></i></a>
+                                                    </div>
+                                                    <a href="#" class="add-to-cart">Add to Cart</a>
+                                                </div>
+                                                <figcaption>
+                                                    <h2>Winter Clothes</h2>
+                                                    <p>If something is so complicated that you can't explain it in 10
+                                                        seconds, then it's probably not worth knowing anyway.</p>
+                                                    <div class="price">$75.00 </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="item">
+                                            <figure class="snip1268">
+                                                <div class="image">
+                                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample4.jpg"
+                                                        alt="sq-sample4" />
+                                                    <div class="icons">
+                                                        <a href="#"><i class="ion-star"></i></a>
+                                                        <a href="#"> <i class="ion-share"></i></a>
+                                                    </div>
+                                                    <a href="#" class="add-to-cart">Add to Cart</a>
+                                                </div>
+                                                <figcaption>
+                                                    <h2>Denim Shirt</h2>
+                                                    <p>My family is dysfunctional and my parents won't empower me.
+                                                        Consequently I'm not self actualized.</p>
+                                                    <div class="price">$65.00 </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- top news -->
+
+    <!-- <div class="container-fluid">
+        <div class="item item-red">
+            <div class="new-all-item">
+                <div class="container-fluid">
+                    <div class="new-title">
+                        <h2> History</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 no-pad">
+                                    <div class="new-item new-item-1">
+                                        <img src="images/new/new1.jpg">
+                                        <div class="info-new">
+                                            <span class="catygory">History</span>
+                                            <h2>History</h2>
+                                            <p class="date">June 14,2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-xs-12 no-pad">
+                                            <div class="new-item new-item-2">
+                                                <img src="images/new/his2.png">
+                                                <span class="catygory catygory-other">History</span>
+                                                <div class="info-new">
+                                                    <h2>Referendum</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 no-pad">
+                                            <div class="new-item new-item-3">
+                                                <img src="images/new/his3.png.crdownload">
+                                                <span class="catygory catygory-other">History</span>
+                                                <div class="info-new">
+                                                    <h2>Halabja</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 no-pad">
+                                            <div class="new-item new-item-3">
+                                                <img src="images/new/his1.png">
+                                                <span class="catygory catygory-other">History</span>
+                                                <div class="info-new">
+                                                    <h2>Kobani War</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--=====================================
+                    FOOTER PART START
+        =======================================-->
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <!-- <i class="fab fa-slack"></i> -->
+                    <span class="logo_name"><img src="images/logo.png" alt=""
+                            style="width: 200px; max-width: 200px !important;" /></span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Company</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Get started</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Services</li>
+                    <li><a href="#">App design</a></li>
+                    <li><a href="#">Web design</a></li>
+                    <li><a href="#">Logo design</a></li>
+                    <li><a href="#">Banner design</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Account</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Prefrences</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Courses</li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Photoshop</a></li>
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!--=====================================
+                        FOOTER PART END
+            =======================================-->
+
+
+    <!-- footer -->
+    <!-- <footer>
+        <div class="help">
+            <a href="help.html"> <img src="images/help.png"> Help </a>
+            <a href="#language" data-toggle="modal" data-target="#language-popup"> <img src="images/flag.png"> Germany
+            </a>
+        </div>
+        <p>All Rights Reserved by www.yekbun.net</p>
+    </footer> -->
+
+    <!-- language popup -->
+    <div id="language-popup" class="login-pop modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Select Your Favorte Language</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <div id="langclick" class="item-lang" onclick="myFunction()">
+                                <div id="sel-lang" class="select-lang"> <img src="images/lang/select-lang.png"> </div>
+                                <img src="images/lang/lang1.png">
+                                <p>English</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div id="langclick2" class="item-lang" onclick="myFunction2()">
+                                <div id="sel-lang2" class="select-lang"> <img src="images/lang/select-lang.png"> </div>
+                                <img src="images/lang/lang2.png">
+                                <p>Hindi</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div id="langclick3" class="item-lang" onclick="myFunction3()">
+                                <div id="sel-lang3" class="select-lang"> <img src="images/lang/select-lang.png"> </div>
+                                <img src="images/lang/lang3.png">
+                                <p>China</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div id="langclick4" class="item-lang" onclick="myFunction4()">
+                                <div id="sel-lang4" class="select-lang"> <img src="images/lang/select-lang.png"> </div>
+                                <img src="images/lang/lang4.png">
+                                <p>Africa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("langclick").style.background = "#719e32",
+                document.getElementById("sel-lang").style.opacity = "1";
+        };
+        function myFunction2() {
+            document.getElementById("langclick2").style.background = "#719e32";
+            document.getElementById("sel-lang2").style.opacity = "1";
+        };
+        function myFunction3() {
+            document.getElementById("langclick3").style.background = "#719e32";
+            document.getElementById("sel-lang3").style.opacity = "1";
+        };
+        function myFunction4() {
+            document.getElementById("langclick4").style.background = "#719e32";
+            document.getElementById("sel-lang4").style.opacity = "1";
+        };
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <!-- JS Files -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+
+        $('#eventsCar').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+
+        $('#usercar').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+
+        $('#artcar').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+
+        $('#musiccar').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+        $('#blogcar').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+        $('#marketcar').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+        $('#advercar').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+        $('#histcar').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            navText: ["<img src='images/slid.png'>", "<img src='images/slid.png'>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+
+
+
+        /* Demo purposes only */
+        $(".hover").mouseleave(
+            function () {
+                $(this).removeClass("hover");
+            }
+        );
+
+        $(document).ready(function () {
+            //Initialize tooltips
+            $('.nav-tabs > li a[title]').tooltip();
+
+            //Wizard
+            $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+
+                var $target = $(e.target);
+
+                if ($target.parent().hasClass('disabled')) {
+                    return false;
+                }
+            });
+
+            $(".next-step").click(function (e) {
+
+                var $active = $('.wizard .nav-tabs li.active');
+                $active.next().removeClass('disabled');
+                nextTab($active);
+
+            });
+            $(".prev-step").click(function (e) {
+
+                var $active = $('.wizard .nav-tabs li.active');
+                prevTab($active);
+
+            });
+        });
+
+        function nextTab(elem) {
+            $(elem).next().find('a[data-toggle="tab"]').click();
+        }
+        function prevTab(elem) {
+            $(elem).prev().find('a[data-toggle="tab"]').click();
+        };
+
+        // Form For Sign-up
+
+        $(document).ready(function () {
+
+            const changeText = function (el, text, color) {
+                el.text(text).css('color', color);
+            };
+
+
+
+            $('.input-1').keyup(function () {
+                let len = this.value.length;
+                const pbText = $('.form-1 .progress-bar_text');
+
+                if (len === 0) {
+                    $('.form-1 .progress-bar_item').each(function () {
+                        $(this).removeClass('active');
+                    });
+                    $('.form-1 .active').css('background-color', 'transparent');
+                    changeText(pbText, 'Password is blank');
+
+                } else if (len > 0 && len <= 4) {
+                    $('.form-1 .progress-bar_item-1').addClass('active');
+                    $('.form-1 .progress-bar_item-2').removeClass('active');
+                    $('.form-1 .progress-bar_item-3').removeClass('active');
+                    // $('.form-1 .active').css('background-color', '#FF4B47');
+                    changeText(pbText, 'Too weak');
+                } else if (len > 4 && len <= 8) {
+                    $('.form-1 .progress-bar_item-2').addClass('active');
+                    $('.form-1 .progress-bar_item-3').removeClass('active');
+                    // $('.form-1 .active').css('background-color', '#F9AE35');
+                    changeText(pbText, 'Could be stronger');
+                } else {
+                    $('.form-1 .progress-bar_item').each(function () {
+                        $(this).addClass('active');
+                    });
+                    // $('.form-1 .active').css('background-color', '#2DAF7D');
+                    changeText(pbText, 'Strong password');
+                }
+            });
+
+            $('.input-2').keyup(function () {
+                let len = this.value.length;
+                const pbText = $('.form-2 .progress-bar_text');
+
+                if (len === 0) {
+                    $('.form-2 .progress-bar_item').each(function () {
+                        $(this).removeClass('active')
+                    });
+                    changeText(pbText, 'Password is blank');
+                } else if (len > 0 && len <= 4) {
+                    $('.form-2 .progress-bar_item-1').addClass('active');
+                    $('.form-2 .progress-bar_item-2').removeClass('active');
+                    $('.form-2 .progress-bar_item-3').removeClass('active');
+                    changeText(pbText, 'Too weak');
+                } else if (len > 4 && len <= 8) {
+                    $('.form-2 .progress-bar_item-2').addClass('active');
+                    $('.form-2 .progress-bar_item-3').removeClass('active');
+                    changeText(pbText, 'Could be stronger');
+                } else {
+                    $('.form-2 .progress-bar_item').each(function () {
+                        $(this).addClass('active');
+                    });
+                    changeText(pbText, 'Strong password');
+                }
+            });
+
+            // Slider for Header
+
+            $('.slider-header .slider img').height($(window).height());
+
+            $(window).on('resize', function () {
+
+                $('.slider-header .slider img').height($(window).height());
+
+            });
+
+            // Player
+
+            var num = 0;
+            var hiddenPlayer = $('#hidden-player');
+            var player = $('#player');
+            var title = $('.title');
+            var artist = $('.artist');
+            var cover = $('.coverr');
+
+            function secondsTimeSpanToHMS(s) {
+                var h = Math.floor(s / 3600); //Get whole hours
+                s -= h * 3600;
+                var m = Math.floor(s / 60); //Get remaining minutes
+                s -= m * 60;
+                return h + ":" + (m < 10 ? '0' + m : m) + ":" + (s < 10 ? '0' + s : s); //zero padding on minutes and seconds
+            };
+
+            songs = [{
+                src: "https://s3-us-west-2.amazonaws.com/live.swipesapp.com/uploads/ONY8E94FL/1514889244-UZTYMBVGO/oddisee-fast-lane-speedin-remix-by-kristjan-vool.mp3",
+                title: "Fast Lane Speedin'",
+                artist: "Oddisee",
+                coverart: "http://static.djbooth.net/pics-features/oddisee-art-thumb.jpg"
+            },
+
+            {
+                src: "https://s3-us-west-2.amazonaws.com/live.swipesapp.com/uploads/ONY8E94FL/1514889217-UZTYMBVGO/andy-mineo-superhuman-remix-by-kristjan-vool.mp3",
+                title: "Superhuman",
+                artist: "Andy Mineo",
+                coverart: "http://static.djbooth.net/pics-artist/andy-mineo.jpg"
+            },
+
+            {
+                src: "http://k003.kiwi6.com/hotlink/gqfxjp1jdw/Wild_Things_remix.mp3",
+                title: "Wild Things",
+                artist: "Andy Mineo",
+                coverart: "http://static.djbooth.net/pics-artist/andy-mineo.jpg"
+            },
+
+            {
+                src: "https://s3-us-west-2.amazonaws.com/live.swipesapp.com/uploads/ONY8E94FL/1514889231-UZTYMBVGO/j-cole-work-out-remix-ver-1.mp3",
+                title: "Work Out",
+                artist: "J. Cole",
+                coverart: "https://s3.amazonaws.com/hiphopdx-production/2014/12/J.-Cole-%E2%80%93-Apparently-e1418166093622-300x300.jpg"
+            },
+
+            {
+                src: "https://s3-us-west-2.amazonaws.com/live.swipesapp.com/uploads/ONY8E94FL/1514889265-UZTYMBVGO/wild-things-remix.mp3",
+                title: "Cocky",
+                artist: "Andy Mineo",
+                coverart: "http://static.djbooth.net/pics-artist/andy-mineo.jpg"
+            }
+            ];
+
+            var initSongSrc = songs[0].src;
+            var initSongTitle = songs[0].title;
+            var initSongArtist = songs[0].artist;
+            var initSongCover = songs[0].coverart;
+
+            hiddenPlayer.attr("src", initSongSrc);
+            title.html(initSongTitle);
+            artist.html(initSongArtist);
+            cover.attr('src', initSongCover);
+
+            hiddenPlayer.attr('order', '0');
+            hiddenPlayer[0].onloadedmetadata = function () {
+                var dur = hiddenPlayer[0].duration;
+                var songLength = secondsTimeSpanToHMS(dur)
+                var songLengthParse = songLength.split(".")[0];
+                $('.time-finish').html(songLengthParse);
+            };
+
+            var items = songs.length - 1;
+
+            $('.next').on('click', function () {
+                var songOrder = hiddenPlayer.attr('order');
+
+                if (items == songOrder) {
+                    num = 0;
+                    var songSrc = songs[0].src;
+                    var songTitle = songs[0].title;
+                    var songArtist = songs[0].artist;
+                    var songCover = songs[0].coverart;
+                    hiddenPlayer.attr('order', '0');
+                    hiddenPlayer.attr('src', songSrc).trigger('play');
+                    title.html(songTitle);
+                    artist.html(songArtist);
+                    cover.attr('src', songCover);
+                } else {
+                    console.log(songOrder);
+                    num += 1;
+                    var songSrc = songs[num].src;
+                    var songTitle = songs[num].title;
+                    var songArtist = songs[num].artist;
+                    var songCover = songs[num].coverart;
+                    hiddenPlayer.attr('src', songSrc).trigger('play');
+                    title.html(songTitle);
+                    artist.html(songArtist);
+                    cover.attr('src', songCover);
+                    hiddenPlayer.attr('order', num);
+                }
+            });
+
+            $('.prev').on('click', function () {
+                var songOrder = hiddenPlayer.attr('order');
+
+                if (songOrder == 0) {
+                    num = items;
+                    var songSrc = songs[items].src;
+                    var songTitle = songs[items].title;
+                    var songArtist = songs[items].artist;
+                    hiddenPlayer.attr('order', items);
+                    hiddenPlayer.attr('src', songSrc).trigger('play');
+                    title.html(songTitle);
+                    artist.html(songArtist);
+                } else {
+                    num -= 1;
+                    var songSrc = songs[num].src;
+                    var songTitle = songs[num].title;
+                    var songArtist = songs[num].artist;
+                    hiddenPlayer.attr('src', songSrc).trigger('play');
+                    title.html(songTitle);
+                    artist.html(songArtist);
+                    hiddenPlayer.attr('order', num);
+                }
+            });
+
+            $(".play-button").click(function () {
+                $(this).toggleClass("paused");
+                if ($(this).hasClass("paused")) {
+                    hiddenPlayer[0].pause();
+                } else {
+                    hiddenPlayer[0].play();
+                }
+            });
+
+            hiddenPlayer.on('timeupdate', function () {
+                var songLength = secondsTimeSpanToHMS(this.duration)
+                var songLengthParse = songLength.split(".")[0];
+                $('.time-finish').html(songLengthParse);
+
+                var songCurrent = secondsTimeSpanToHMS(this.currentTime)
+                var songCurrentParse = songCurrent.split(".")[0];
+                $('.time-now').html(songCurrentParse);
+                $('progress').attr("value", this.currentTime / this.duration);
+
+                if (!hiddenPlayer[0].paused) {
+                    $(".play-button").removeClass('paused');
+                    $('progress').css('cursor', 'pointer');
+
+
+                    $('progress').on('click', function (e) {
+                        var parentOffset = $(this).parent().offset();
+                        var relX = e.pageX - parentOffset.left;
+                        var percPos = relX * 100 / 355;
+                        var second = hiddenPlayer[0].duration * parseInt(percPos) / 100;
+                        console.log(second);
+                        hiddenPlayer[0].currentTime = second;
+                    });
+                }
+
+                if (this.currentTime == this.duration) {
+                    $('.next').trigger('click');
+                }
+            });
+
+            // User
+
+            $(document).ready(function () {
+                $('.profile-card').mouseleave(function () {
+                    $('.profile-actions').slideUp('fast');
+                    $('.profile-info').slideUp('fast');
+                    $('.profile-map').slideUp('fast');
+                });
+
+                $('.profile-avatar').hover(
+                    function () {
+                        $('.profile-links').fadeIn('fast');
+                    },
+                    function () {
+                        $('.profile-links').hide();
+                    }
+                );
+                $('.read-more').click(function () {
+                    $('.profile-map').slideUp('fast');
+                    $('.profile-info').slideToggle('fast');
+                    return false;
+                });
+                $('.view-map').click(function () {
+                    $('.profile-info').slideUp('fast');
+                    $('.profile-map').slideToggle('fast');
+                    return false;
+                });
+            });
+
+            $(".hover").mouseleave(function () {
+
+                $(this).removeClass("hover");
+
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>
